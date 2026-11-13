@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-11-07T18:33:45.974054+00:00",
+  "method": "POST",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "request": {
+    "model": "nvidia/nemotron-3.5-super-vl:free",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Respond? ?nicamente OK"
+      }
+    ],
+    "stream": false,
+    "max_tokens": 256,
+    "reasoning": {
+      "enabled": false
+    },
+    "provider": {
+      "require_parameters": true,
+      "allow_fallbacks": false,
+      "max_price": {
+        "prompt": 0,
+        "completion": 0
+      },
+      "data_collection": "deny"
+    }
+  },
+  "api_key_present": true,
+  "generation_requests": 1,
+  "ram_before_gib": 1.48,
+  "http_status": 404,
+  "error": {
+    "message": "No endpoints found matching your data policy (Free model training). Configure: https://openrouter.ai/settings/privacy",
+    "code": 404,
+    "metadata": {
+      "routing_funnel": [
+        {
+          "step": "Initial Endpoints",
+          "endpoint_count": 1
+        }
+      ],
+      "failed_routing_step": "Filter by Data Policy"
+    }
+  },
+  "duration_seconds": 0.682,
+  "ram_after_gib": 1.448
+}

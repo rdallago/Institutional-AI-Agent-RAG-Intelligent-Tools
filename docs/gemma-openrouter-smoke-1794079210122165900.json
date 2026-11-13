@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-11-07T19:20:07.962968+00:00",
+  "model": "google/gemma-4-26b-a4b-it:free",
+  "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+  "method": "POST",
+  "provider": "google-ai-studio",
+  "message": "Respond only OK",
+  "response_format_sent": false,
+  "data_collection": "deny",
+  "generation_requests": 1,
+  "http_status": 429,
+  "error": {
+    "message": "Provider returned error",
+    "code": 429,
+    "metadata": {
+      "raw": "google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own provider key to use your own limits: https://openrouter.ai/workspaces/default/byok",
+      "provider_name": "Google AI Studio",
+      "is_byok": false,
+      "provider_error_code": "429",
+      "limit_source": "upstream_provider_shared_pool",
+      "remedy_hint": "Retry shortly, add your own provider key to use your own limits (https://openrouter.ai/workspaces/default/byok), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing."
+    }
+  },
+  "duration_seconds": 2.159
+}

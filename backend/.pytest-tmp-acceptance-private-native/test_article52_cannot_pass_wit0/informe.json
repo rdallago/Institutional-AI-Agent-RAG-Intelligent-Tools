@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "run_id": "8a467945-d714-4ea8-864d-d3cca2134b77",
+  "identities": {},
+  "conversations": {
+    "ADMIN:academica": {
+      "id": "22424a5d-c108-4a32-a6e4-b36b99fe1870",
+      "owner": "00a5a7eb-6b05-44c1-a16b-edda49003955",
+      "label": "ACEPTACION 8a467945 ADMIN:academica",
+      "created": true
+    }
+  },
+  "results": {
+    "A1": {
+      "status": "APROBADO",
+      "request_id": "35e98515-9fb6-4530-bbe6-3bec4e046c3f"
+    },
+    "A2": {
+      "user": "ADMIN",
+      "role": "ADMIN",
+      "conversation": "22424a5d-c108-4a32-a6e4-b36b99fe1870",
+      "question": "¿Y cuáles son los requisitos para concursar las coordinaciones de carrera?",
+      "expected": "RAG",
+      "request_id": "82ee0892-88e1-4c2a-ba4b-610303765cc5",
+      "ram_before_gib": 2.0,
+      "status": "FALLIDO",
+      "reason": "Las páginas citadas no corresponden al apartado esperado.",
+      "http": 200,
+      "seconds": 0.25,
+      "ram_after_gib": 2.0,
+      "actual": "RAG",
+      "tool": null,
+      "response": "Texto [F1].",
+      "state": "FUNDAMENTADA",
+      "sources": [
+        {
+          "id": "F1",
+          "pagina": 11
+        }
+      ],
+      "diagnostics": [],
+      "selection_source": "NO EVALUADO: no expuesto por HTTP",
+      "semantic_review": "PENDIENTE: revisar texto, cobertura y atribución",
+      "qwen_calls": "NO DETERMINABLE solo mediante el contrato HTTP"
+    }
+  },
+  "phase": "turns",
+  "summary": {
+    "counts": {
+      "APROBADO": 1,
+      "FALLIDO": 1
+    },
+    "acceptance": "REVISIÓN HUMANA PENDIENTE: los aprobados automáticos son técnicos",
+    "real_qwen_calls": "No observable mediante el contrato HTTP; no estimar como conteo real"
+  },
+  "last_post_at": 1794073461.006911
+}

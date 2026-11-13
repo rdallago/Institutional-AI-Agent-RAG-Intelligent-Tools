@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "run_id": "2275e3ed-6d74-4715-b06e-7545ebb89dec",
+  "identities": {},
+  "conversations": {},
+  "results": {
+    "U1": {
+      "status": "BLOQUEADO",
+      "reason": "El ROM no figura en el catálogo autorizado; no se cambian ACL.",
+      "user": "COMUN",
+      "question": "¿Cuáles son las funciones del Rectorado según el Reglamento Orgánico Marco?",
+      "expected": "RAG"
+    }
+  },
+  "phase": "turns",
+  "document_access": {
+    "COMUN": false
+  },
+  "summary": {
+    "counts": {
+      "BLOQUEADO": 1
+    },
+    "acceptance": "REVISIÓN HUMANA PENDIENTE: los aprobados automáticos son técnicos",
+    "real_qwen_calls": "No observable mediante el contrato HTTP; no estimar como conteo real"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "run_id": "015e4557-1965-4e9f-9a63-b6dee0f56b79",
+  "identities": {},
+  "conversations": {
+    "ADMIN:test": {
+      "id": "fa455b77-de61-4596-b4de-833ba700760a",
+      "owner": "bfed1fb2-ff4c-4e50-8d7b-e09ed2cb5559",
+      "created": true,
+      "history_hash": "99abcc922aa79a0727597461c1779a5a41982380530773e00d769ad6908d1ae8",
+      "message_count": 2
+    },
+    "COMUN:test": {
+      "id": "ccceab0b-72c2-4529-8acb-c7a6b57f08b8",
+      "owner": "ba1da822-dc9a-4d1b-a6a6-9f217a506aa9",
+      "created": true,
+      "history_hash": "99abcc922aa79a0727597461c1779a5a41982380530773e00d769ad6908d1ae8",
+      "message_count": 2
+    }
+  },
+  "results": {
+    "before_logout:ADMIN:fa455b77-de61-4596-b4de-833ba700760a": {
+      "user": "ADMIN",
+      "conversation": "fa455b77-de61-4596-b4de-833ba700760a",
+      "status": "APROBADO",
+      "http": 200,
+      "messages": 2,
+      "hash": "99abcc922aa79a0727597461c1779a5a41982380530773e00d769ad6908d1ae8"
+    },
+    "before_logout:cross:ADMIN:ccceab0b-72c2-4529-8acb-c7a6b57f08b8": {
+      "user": "ADMIN",
+      "conversation": "ccceab0b-72c2-4529-8acb-c7a6b57f08b8",
+      "status": "APROBADO",
+      "http": 403,
+      "reason": "Acceso cruzado: se espera 403."
+    },
+    "before_logout:COMUN:ccceab0b-72c2-4529-8acb-c7a6b57f08b8": {
+      "user": "COMUN",
+      "conversation": "ccceab0b-72c2-4529-8acb-c7a6b57f08b8",
+      "status": "APROBADO",
+      "http": 200,
+      "messages": 2,
+      "hash": "99abcc922aa79a0727597461c1779a5a41982380530773e00d769ad6908d1ae8"
+    },
+    "before_logout:cross:COMUN:fa455b77-de61-4596-b4de-833ba700760a": {
+      "user": "COMUN",
+      "conversation": "fa455b77-de61-4596-b4de-833ba700760a",
+      "status": "APROBADO",
+      "http": 403,
+      "reason": "Acceso cruzado: se espera 403."
+    },
+    "after_login:ADMIN:fa455b77-de61-4596-b4de-833ba700760a": {
+      "user": "ADMIN",
+      "conversation": "fa455b77-de61-4596-b4de-833ba700760a",
+      "status": "APROBADO",
+      "http": 200,
+      "messages": 2,
+      "hash": "99abcc922aa79a0727597461c1779a5a41982380530773e00d769ad6908d1ae8"
+    },
+    "after_login:cross:ADMIN:ccceab0b-72c2-4529-8acb-c7a6b57f08b8": {
+      "user": "ADMIN",
+      "conversation": "ccceab0b-72c2-4529-8acb-c7a6b57f08b8",
+      "status": "APROBADO",
+      "http": 403,
+      "reason": "Acceso cruzado: se espera 403."
+    },
+    "after_login:COMUN:ccceab0b-72c2-4529-8acb-c7a6b57f08b8": {
+      "user": "COMUN",
+      "conversation": "ccceab0b-72c2-4529-8acb-c7a6b57f08b8",
+      "status": "APROBADO",
+      "http": 200,
+      "messages": 2,
+      "hash": "99abcc922aa79a0727597461c1779a5a41982380530773e00d769ad6908d1ae8"
+    },
+    "after_login:cross:COMUN:fa455b77-de61-4596-b4de-833ba700760a": {
+      "user": "COMUN",
+      "conversation": "fa455b77-de61-4596-b4de-833ba700760a",
+      "status": "APROBADO",
+      "http": 403,
+      "reason": "Acceso cruzado: se espera 403."
+    },
+    "after_restart:ADMIN:fa455b77-de61-4596-b4de-833ba700760a": {
+      "user": "ADMIN",
+      "conversation": "fa455b77-de61-4596-b4de-833ba700760a",
+      "status": "APROBADO",
+      "http": 200,
+      "messages": 2,
+      "hash": "99abcc922aa79a0727597461c1779a5a41982380530773e00d769ad6908d1ae8"
+    },
+    "after_restart:cross:ADMIN:ccceab0b-72c2-4529-8acb-c7a6b57f08b8": {
+      "user": "ADMIN",
+      "conversation": "ccceab0b-72c2-4529-8acb-c7a6b57f08b8",
+      "status": "APROBADO",
+      "http": 403,
+      "reason": "Acceso cruzado: se espera 403."
+    },
+    "after_restart:COMUN:ccceab0b-72c2-4529-8acb-c7a6b57f08b8": {
+      "user": "COMUN",
+      "conversation": "ccceab0b-72c2-4529-8acb-c7a6b57f08b8",
+      "status": "APROBADO",
+      "http": 200,
+      "messages": 2,
+      "hash": "99abcc922aa79a0727597461c1779a5a41982380530773e00d769ad6908d1ae8"
+    },
+    "after_restart:cross:COMUN:fa455b77-de61-4596-b4de-833ba700760a": {
+      "user": "COMUN",
+      "conversation": "fa455b77-de61-4596-b4de-833ba700760a",
+      "status": "APROBADO",
+      "http": 403,
+      "reason": "Acceso cruzado: se espera 403."
+    }
+  },
+  "phase": "turns",
+  "summary": {
+    "counts": {
+      "APROBADO": 12
+    },
+    "acceptance": "REVISIÓN HUMANA PENDIENTE: los aprobados automáticos son técnicos",
+    "real_qwen_calls": "No observable mediante el contrato HTTP; no estimar como conteo real"
+  },
+  "database_before_logout": {
+    "readonly": true
+  },
+  "database_after_login": {
+    "readonly": true
+  },
+  "database_after_restart": {
+    "readonly": true
+  }
+}

@@ -1,0 +1,10 @@
+# Partial constraints: installed HTTPX runtime closure on Python 3.14.
+# Use -c constraints-httpx.txt when preparing a new backend environment.
+# This is not a complete lockfile of the entire project.
+httpx==0.28.1
+httpcore==1.0.9
+anyio==4.15.1
+certifi==2026.10.23
+idna==3.20
+h11==0.16.0
+typing_extensions==4.16.0

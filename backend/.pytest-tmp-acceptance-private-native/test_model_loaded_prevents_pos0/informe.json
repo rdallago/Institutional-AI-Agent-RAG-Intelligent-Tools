@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "run_id": "f4d5c160-3bfe-47c2-9312-08f0c8bda9f9",
+  "identities": {},
+  "conversations": {},
+  "results": {
+    "A1": {
+      "status": "BLOQUEADO",
+      "reason": "Ollama no está idle o no se pudo verificar; no se cargan modelos en paralelo.",
+      "user": "ADMIN",
+      "question": "¿Cuáles son las funciones del Rectorado según el Reglamento Orgánico Marco?",
+      "expected": "RAG"
+    }
+  },
+  "phase": "turns",
+  "summary": {
+    "counts": {
+      "BLOQUEADO": 1
+    },
+    "acceptance": "REVISIÓN HUMANA PENDIENTE: los aprobados automáticos son técnicos",
+    "real_qwen_calls": "No observable mediante el contrato HTTP; no estimar como conteo real"
+  },
+  "resources_blocked": true
+}

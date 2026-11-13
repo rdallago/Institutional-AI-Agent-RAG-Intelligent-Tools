@@ -1,0 +1,917 @@
+{
+  "scope": "administrative_read_only_not_http_login",
+  "documents": [
+    {
+      "id": "8ac0c745-1307-5bb4-9d56-93dfbee0b3b8",
+      "titulo_publico": "Reglamento académico",
+      "visibilidad": "PRIVATE",
+      "estado": "LISTA",
+      "numero": 1,
+      "ruta_relativa_controlada": "reglamento_academico.pdf",
+      "paginas": 72,
+      "chunks": 432,
+      "embeddings": 432,
+      "accessible": true
+    }
+  ],
+  "queries": [
+    {
+      "question": "¿Cuáles son las funciones del Rectorado según el Reglamento Orgánico Marco?",
+      "document": {
+        "id": "8ac0c745-1307-5bb4-9d56-93dfbee0b3b8",
+        "titulo": "Reglamento académico"
+      },
+      "anchors": [
+        "funciones",
+        "marco",
+        "organico",
+        "rectorado"
+      ],
+      "top12": [
+        {
+          "rank": 1,
+          "id": "74e1b9627111ecab1d728f2f1920f129be6afbf820d944ef9aab7256c67b7399",
+          "page": 49,
+          "score": 0.717539,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "funciones",
+            "rectorado"
+          ]
+        },
+        {
+          "rank": 2,
+          "id": "85bafe8716668b62f0bbe8c887dfc1024cd47b96e3f27f8adc84fd36300a5ce8",
+          "page": 30,
+          "score": 0.697505,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "rectorado"
+          ]
+        },
+        {
+          "rank": 3,
+          "id": "730124ff67d99214dc5cbd61e57b234fb9b1cee0a59970edab61833a291b992c",
+          "page": 53,
+          "score": 0.691636,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "funciones",
+            "organico",
+            "rectorado"
+          ]
+        },
+        {
+          "rank": 4,
+          "id": "d95f7ce946e23be5bfe015ca863a8f1a4d30da0f19706dc3cc9290fd873ff49e",
+          "page": 67,
+          "score": 0.682887,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "funciones",
+            "rectorado"
+          ]
+        },
+        {
+          "rank": 5,
+          "id": "4f875a12d47078f9ff147c9a02e46eb770531f9610c20683dc12b7d74f6007c9",
+          "page": 10,
+          "score": 0.671669,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "funciones",
+            "marco",
+            "organico",
+            "rectorado"
+          ]
+        },
+        {
+          "rank": 6,
+          "id": "0c44649028e9aca5574cfee968f2d6d7cbfc528cbc15e644e6af9895f97bb16d",
+          "page": 12,
+          "score": 0.670033,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "marco",
+            "organico",
+            "rectorado"
+          ]
+        },
+        {
+          "rank": 7,
+          "id": "b31ecf61528257b504bb8aaa7451ac8b580303a7698ad507792940ebc69b56ad",
+          "page": 67,
+          "score": 0.66871,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "funciones",
+            "marco",
+            "organico",
+            "rectorado"
+          ]
+        },
+        {
+          "rank": 8,
+          "id": "61afa5bfab3b92fc5a04d499532483b5d491c1533012d827d3704239e41bb16e",
+          "page": 2,
+          "score": 0.666227,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "funciones",
+            "rectorado"
+          ]
+        },
+        {
+          "rank": 9,
+          "id": "4d496c76d0ba4b73f383a4609353eef479db80438b41156fa23f6a9464b3837c",
+          "page": 6,
+          "score": 0.665987,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "funciones",
+            "organico",
+            "rectorado"
+          ]
+        },
+        {
+          "rank": 10,
+          "id": "eaa8e096080116893c8367af922dc8b598ca4933eb184593bcf4349acc3bcda5",
+          "page": 3,
+          "score": 0.665802,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "funciones",
+            "organico",
+            "rectorado"
+          ]
+        },
+        {
+          "rank": 11,
+          "id": "1fecd08f16dae75e7d8a000cf1ede568bebbc2f26bc333ba105be6d8a2cc05db",
+          "page": 8,
+          "score": 0.665184,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "organico",
+            "rectorado"
+          ]
+        },
+        {
+          "rank": 12,
+          "id": "f2d55c44d1ee80b4afa9b9438f7755d32807dfb406e55529582fce0299b0d342",
+          "page": 42,
+          "score": 0.66495,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "marco",
+            "organico",
+            "rectorado"
+          ]
+        }
+      ],
+      "expanded_accepted": []
+    },
+    {
+      "question": "¿Cuáles son los requisitos para acceder al concurso de coordinación de carrera?",
+      "document": {
+        "id": "8ac0c745-1307-5bb4-9d56-93dfbee0b3b8",
+        "titulo": "Reglamento académico"
+      },
+      "anchors": [
+        "acceder",
+        "carrera",
+        "concurso",
+        "coordinacion"
+      ],
+      "top12": [
+        {
+          "rank": 1,
+          "id": "859b179b1e01c74a8a9e7736dccd8e1aa228d0259b8d38d0576a7e3828387219",
+          "page": 35,
+          "score": 0.742195,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "acceder",
+            "concurso"
+          ]
+        },
+        {
+          "rank": 2,
+          "id": "e0350ff53e67ba08d97ab15271ef23041f6353ca9064a75b7ab2b086dc9e5379",
+          "page": 33,
+          "score": 0.739971,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "acceder",
+            "concurso",
+            "coordinacion"
+          ]
+        },
+        {
+          "rank": 3,
+          "id": "32ba4b98c8456e235813c3904794032c5f6c4c8e29a00a530e276cf04b1fd224",
+          "page": 35,
+          "score": 0.73085,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "acceder",
+            "concurso",
+            "coordinacion"
+          ]
+        },
+        {
+          "rank": 4,
+          "id": "e89446235a1bd418ef9eeb906f7e07c677cc72249e70a9a160e6740b28779d18",
+          "page": 64,
+          "score": 0.725935,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "acceder",
+            "concurso",
+            "coordinacion"
+          ]
+        },
+        {
+          "rank": 5,
+          "id": "825f7167a4d6875a63ce1bfc502ebbd41bd58f215e237718af06a803f8d41e4f",
+          "page": 34,
+          "score": 0.725549,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "acceder",
+            "concurso",
+            "coordinacion"
+          ]
+        },
+        {
+          "rank": 6,
+          "id": "d358527e68cc78b6ffcc80bcaa67e3cd5fe500078c9771178d24b1f7765d63b2",
+          "page": 34,
+          "score": 0.72435,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "acceder",
+            "coordinacion"
+          ]
+        },
+        {
+          "rank": 7,
+          "id": "a379bae51b1344b1876a99ff892140605f37b72e6ebafdb2cfc55ab1dedf0c8a",
+          "page": 35,
+          "score": 0.724205,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "acceder",
+            "concurso",
+            "coordinacion"
+          ]
+        },
+        {
+          "rank": 8,
+          "id": "f62ad1db834dc179d2cd012fcdf09f0f148dfeb5c71a3e2b8b6f232eced0cc72",
+          "page": 34,
+          "score": 0.716678,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "acceder",
+            "concurso",
+            "coordinacion"
+          ]
+        },
+        {
+          "rank": 9,
+          "id": "9218739ca67e53593c4ab6e2822e688a19a25015326950bb3c648b4b407fe0c9",
+          "page": 32,
+          "score": 0.71576,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "acceder",
+            "coordinacion"
+          ]
+        },
+        {
+          "rank": 10,
+          "id": "93a6a9712b5ed2f8ea1221b3e6e7fe9f02c980a758baa038ef56d2e4e6bc513c",
+          "page": 35,
+          "score": 0.714884,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "acceder",
+            "concurso",
+            "coordinacion"
+          ]
+        },
+        {
+          "rank": 11,
+          "id": "70b2a169b65fd2a8846ff5ede1ea70ea9bdb6ab774c432f09fed0c771b96e028",
+          "page": 32,
+          "score": 0.714421,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "acceder",
+            "concurso"
+          ]
+        },
+        {
+          "rank": 12,
+          "id": "6c5b288058482e255439d39edc2412e6c3259f064f6bf69f09c86d30826c6649",
+          "page": 32,
+          "score": 0.713622,
+          "reason": "lexical_or_subject_mismatch",
+          "missing_anchors": [
+            "acceder",
+            "coordinacion"
+          ]
+        }
+      ],
+      "expanded_accepted": []
+    }
+  ],
+  "text_hits": [
+    {
+      "id": "1df825d8a504d9be7a611e304e4f429f7de6bcaf3307ea866993c952e8ff0ac9",
+      "page": 1,
+      "excerpt": "oraci6n del ROM ANEXO II Regimen Academico Marco \nAnexo ill Concursos Docentes . \nQue la Resoluci6n "
+    },
+    {
+      "id": "4d496c76d0ba4b73f383a4609353eef479db80438b41156fa23f6a9464b3837c",
+      "page": 6,
+      "excerpt": "t \n£1t1.inisterio tie 'Etfucacwn \nPr01Jincia tlr. Corrientu \nIll \n-Hoja 06-\n(expediente N° 330-19-6-"
+    },
+    {
+      "id": "8e86db2bbc4038961446858fa442acbe7691a31724047362560b030f89d1416a",
+      "page": 6,
+      "excerpt": "a y participativa. \nComposici6n: estara integrado por Representantes Zonales de los Rectores de todo"
+    },
+    {
+      "id": "6fdfc97ad20a67b1996b7cfc0db8b16c019399beb61a6d2973de0dccb6e27ad9",
+      "page": 6,
+      "excerpt": "ntinuaci6n: \nZona 1 Capital, San Luis del Palmar, Caa Cati, Empedrado, \nZona 2 Bella Vista, Goya, Es"
+    },
+    {
+      "id": "ee920e2d2d5aecb0fae3748b0a3f655b0c119f9b5c176b51b64f804de20e704e",
+      "page": 8,
+      "excerpt": " su \ngestion, promoviendo la participacion de los diferentes claustros o estamentos -\ndirectivos, do"
+    },
+    {
+      "id": "74fc8cd3a8c7c8ea374ab4f73b2758ea80946ea109ce010e3babfd006ae53cbc",
+      "page": 9,
+      "excerpt": "i \nES CO PIA \n1455 .. \nMinisterio de 'Etfmacwn \n~'Provincia de Corrientes \nIll \n-Hoja 09-\n(expedient"
+    },
+    {
+      "id": "62a7528aa9b6e90c3816d7913a52e2510f5a9434e1d64f05de234fdedefffb15",
+      "page": 9,
+      "excerpt": "iertas por los suplentes, en el orden de la lista respectiva. \nEn el caso de que un consejero deba c"
+    },
+    {
+      "id": "6535ddf2637e2c78a458981ecaa450c7fa07cb9b1171254021b5a243de1c5a3a",
+      "page": 9,
+      "excerpt": "ado el mimero de suplentes, el Rector \nconv ara a elecciones para cubrir los cargos vacantes en el c"
+    },
+    {
+      "id": "4f875a12d47078f9ff147c9a02e46eb770531f9610c20683dc12b7d74f6007c9",
+      "page": 10,
+      "excerpt": "ursando en \nforma regular el 2do afio de la misma al momenta de la elecci6n. \nArticulo 23. Funcionam"
+    },
+    {
+      "id": "272e515ccb5da8806e1636d1dcd15442bfd9ee47786ca21cb9e8caa041153aed",
+      "page": 10,
+      "excerpt": "te el aiio academico una vez cada 15 dias, y con \nposibilidad de realizar sesiones extraordinarias c"
+    },
+    {
+      "id": "d032189e86ebf959b2fec001d19e10f66a497b47547a6ee1fc5f8715127c6b35",
+      "page": 11,
+      "excerpt": "miembros de la \ncomunidad educativa representados presenten temas o problemas que deberian \nabordars"
+    },
+    {
+      "id": "b544db38f601e77175ed0e68d59d9af831df79ace852b825c976a33ef369f74f",
+      "page": 11,
+      "excerpt": ". Del Rectorado: Es la unidad de conducci6n de la gesti6n academica y \ninistrativa de la instituci6n"
+    },
+    {
+      "id": "bc8359a762b3b0aac8538c04e241fa76b325054d4e3113fc45363494a519a2bc",
+      "page": 12,
+      "excerpt": "ES COP I \ne \n1455 \n:Ministerio tfe 'Etfucaci6n \n<Provincin tfe Conientu \n-Hoja 12-\n(expediente N° 33"
+    },
+    {
+      "id": "5febee566e193774b38b0e69c060ee222ce286c14185f030852fe2b6fe42bda1",
+      "page": 12,
+      "excerpt": "nal. \nArticulo 25. Composicion: El Rectorado esta conformado por el Rector y el/los \nVicerrectorles "
+    },
+    {
+      "id": "0c44649028e9aca5574cfee968f2d6d7cbfc528cbc15e644e6af9895f97bb16d",
+      "page": 12,
+      "excerpt": "de revista. Establecido en la normativa vigente. \nArticulo 28. Funciones del Rector. \na. Dirigir la "
+    },
+    {
+      "id": "64f1230f6fb11a85eeae98f1278e49329067631428209896cb064ca405b1124c",
+      "page": 13,
+      "excerpt": "esoluci6n documentada. \nn. Elevar de acuerdo a la normativa vigente los tftulos de los egresados y l"
+    },
+    {
+      "id": "cbca0f8c7921a7abf9c2841941f9aae5e40b6ce22afdd78f108e2bc2a04aa59b",
+      "page": 13,
+      "excerpt": "as relaciones institucionales con las autoridades educativas y con la \nomunidad lo 1. \nordinar j nt "
+    },
+    {
+      "id": "a8faa8736ff964e019e101aa01027bca2fedc16c16036dfb0d6c0e8ba5abcc9d",
+      "page": 14,
+      "excerpt": " planificaci6n de las acciones de fortalecimiento y \nmejora institucional previstos. \nu. Intervenir "
+    },
+    {
+      "id": "75b460a5c26427c02f465c0409a09ac84e36bbcb667cc105ecf9aa916a5b32b9",
+      "page": 14,
+      "excerpt": "nar la actividad del personal bajo su dependencia directa. \nArticulo 29. Ausencia del Rector: se pro"
+    },
+    {
+      "id": "14293f46f40e25df46ef48df28ac8107c0b177cb1ccb747397a5a4d913b4fed1",
+      "page": 14,
+      "excerpt": "a autoridad responsable de la coordinaci6n de las actividades de gesti6n \nadministrativa y de inform"
+    },
+    {
+      "id": "581598bb75ed6330908bcabc6b7b8d61557a062524cc09ade2704b8950d555a1",
+      "page": 15,
+      "excerpt": ":Ministerio ae 'Eifucacum \n<Prouiru:ia tft Corrientts \nIll \n-Hoja 15-\n(expediente N° 330-19-6-186412"
+    },
+    {
+      "id": "989f17afd43aa61c2aa84a7e48e68d5c1dd3da28020aa84a7a571e6e31f38610",
+      "page": 15,
+      "excerpt": "edes o casos en que \ncorrespond a,. \nc) Asumir la representaci6n del Instituto Superior en los turno"
+    },
+    {
+      "id": "9ec2c7a79e8397dbc12db9a0310f88384281fbea963316f6e0014a362a89581d",
+      "page": 15,
+      "excerpt": "aci6n de los certificados de estudios parciales y \ncompletos del alumnado para la prosecuci6n del tn"
+    },
+    {
+      "id": "daaf7026082d63cad528a9d87449898ee009514f2ee862613d549d168111ff98",
+      "page": 15,
+      "excerpt": ") Asegurar el normal funcionamiento de la secci6n de atenci6n al alumnado. \nm) Controlar los libros "
+    },
+    {
+      "id": "78a186ce46720e880cfc0de034e9b678030c5a63545fe5a0e02ce40498e17fce",
+      "page": 15,
+      "excerpt": "mico actividades de \nautoevaluaci6n institucional como asf tambien de evaluaci6n de los diferentes \n"
+    },
+    {
+      "id": "7d799fd162114fe27ac6605976f9bbfe3d36ea37290a489ec356bc32287d2cb8",
+      "page": 16,
+      "excerpt": "7Yf.inisterio tfe 'Etfucacron \nPrt>vinciJz ae Corrientts \nIll \n-Hoja 16-\n(expediente N° 330-19-6-186"
+    },
+    {
+      "id": "6358ee03f61769c48064ebce60e71ef7e27b442419ce10ce957e749e2066ede1",
+      "page": 16,
+      "excerpt": "i de acuerdo a la \nnormativa vigente. \nSecretaria Academica \nArticulo 35. Secretaria Academica. \nEs "
+    },
+    {
+      "id": "a66b2fd7310e8a1d31785cbc61caedd59e82e8424e4c4c4c798e7125f65f25dd",
+      "page": 16,
+      "excerpt": "rayectoria formativa de los estudiantes. Funciona bajo la dependencia del Rectorado. \nEstani conform"
+    },
+    {
+      "id": "991e3012c211f18dd4f38ff029be4c9f3db791fa217df5f132296488764ace46",
+      "page": 16,
+      "excerpt": "stablecido en las \nnormativas vigentes. \nArticulo 37. Funciones de Ia Secretaria Academica. \na. Ejer"
+    },
+    {
+      "id": "508b25b04a0be1ba8f5a142af36e4e168cbb0a43fdea852acb5414f73311f846",
+      "page": 16,
+      "excerpt": "idades academicas del lnstituto, a traves de \nlas Coordinaciones de Areas existentes en la instituci"
+    },
+    {
+      "id": "4ed79fd17739584c457ae45be1d42cc0d3bdd0ca84313d8c5c0a10d722b5a7c7",
+      "page": 16,
+      "excerpt": "jo su dependencia. Y en los casos que se requiera su tratamiento en el Consejo \nDirective, elevarlo "
+    },
+    {
+      "id": "6759f3286209445b7351a67b07c53e9b80c2c033381241124685f5a56d0f10b5",
+      "page": 17,
+      "excerpt": "los planes de estudio de las carreras \nque ofrece la instituci6n. \ng. Participar a traves de un trab"
+    },
+    {
+      "id": "5de3f6efbf46f2024b4e9d2ea2379eb08f0328eadeacbe6f5281a3826ae7adaa",
+      "page": 17,
+      "excerpt": "tes a los fines de optimizar la \nactualizaci6n de la informacion academica de los estudiantes. \n1. A"
+    },
+    {
+      "id": "948a298c90d3937c14e86909a176eb201ae6c8ba6a4250cf8fd387f93608218b",
+      "page": 17,
+      "excerpt": "visar el funcionamiento del Centro de recursos de apoyo tecnico­\npedag6gico ( biblioteca, laboratori"
+    },
+    {
+      "id": "14196b08bcb8c2867d6796f688e622562619cb1525f5a36b20cfae28baabc160",
+      "page": 17,
+      "excerpt": "idades academicas del Instituto. \no. Presentar al Consejo Directivo un Informe Anual de las acciones"
+    },
+    {
+      "id": "e21b024fd8a8c60f5f03fb61fe038dfd32732a4568bcda796b1becd65237e937",
+      "page": 18,
+      "excerpt": " ambito de formaci6n docente ylo tecnica de nivel superior, y \nal menos losdos (2) ultimos en la ins"
+    },
+    {
+      "id": "72320f3d3ecaea226429f0f905c7fe586ffdc164bc3fc7b868edb093ad6e2adf",
+      "page": 18,
+      "excerpt": "ar o interino de la instituci6n se postulara para el cargo \no todos los aspirantes fuesen desestimad"
+    },
+    {
+      "id": "0e046591a90cca2ff78589da9884288d20347f1445faaf882e319053d7c53d8d",
+      "page": 19,
+      "excerpt": "a Secretaria Academica: \nSi hubiere que cubrir la Secretaria Academica con un suplente por un perfod"
+    },
+    {
+      "id": "db5a2c9a93d56c5cd7a5d3635e0bb016a0e5a2b3944e95d1a0db6f7269183fca",
+      "page": 20,
+      "excerpt": "\"-,../ \nES COP lA \n1455 \n·3 0 JUL 2014 \n:Ministerio tie 'EtfucaciOn \n!Provincia ae Corrimtes \nIll \n-"
+    },
+    {
+      "id": "e979159324915024f4dbe21c39e3db898bdb5f0b116dbfee4a3e1f9fe9c567ba",
+      "page": 20,
+      "excerpt": "jo dependencia del Rectorado. Es la \ncoordinacion administrativa, resguardo de \nestablecimiento, del"
+    },
+    {
+      "id": "27b78e472fdaaf31cc45be35c675a2f4595af0771900baaaf46fc7f8d0fe14cf",
+      "page": 20,
+      "excerpt": "erior. \nAsesorar al Consejo Directive y al Rector en los asuntos administrativos. \nRefrendar toda la"
+    },
+    {
+      "id": "812d0051ef463da6d87b8ef52e45831bdbd90baaf6ae49db14d840664956fe98",
+      "page": 20,
+      "excerpt": "adonde corresponda. · \nRegistrar y distribuir la documentaci6n que se origina en el Institute. \nOrga"
+    },
+    {
+      "id": "8ed96cfa8ed9bd4469c61f007fd0f82f1cea9920a126fa6746efb55f85b992aa",
+      "page": 21,
+      "excerpt": "E~~o~~ \nt \n3 0 JUL 2014 \n:Ministerio tie 'EifucaciOn \ncprovincia tfe Corri.entes \nIll \n-Hoja 21-\n(ex"
+    },
+    {
+      "id": "787fdbff4bf8f04c78322752bf1439bbb9ebea9ea71bd7def0b39da51077f20f",
+      "page": 21,
+      "excerpt": "El acceso al cargo sera por concurso de titulos y antecedentes. \nLa Secretaria Administrativa es dir"
+    },
+    {
+      "id": "260f29db2a1b6bb4ab86f165f0f31d32ecda336b2d0bd274675318e238f8e36a",
+      "page": 21,
+      "excerpt": " \nseparaci6n del cargo, fallecimiento o cualquier imposibilidad que afecte \ndefinitivamente al ejerc"
+    },
+    {
+      "id": "eff9118abc9dbce0251ef7c1eda39977958efced2c74973c19c0a6ab8736bc0a",
+      "page": 21,
+      "excerpt": " Areas. Descripci6n. \nLas Coordinaciones de Areas funcionaran bajo la dependencia de la Secretaria \n"
+    },
+    {
+      "id": "602b03679e0e427c5833bfa02b37748415228114c448fafd5750e5f952c081ed",
+      "page": 22,
+      "excerpt": "e \nMinisterio tfe 'EtfucaciOn \nfPravincia de Corrientu \n-Hoja 22-\n(expediente N° 330-19-6-186412014)"
+    },
+    {
+      "id": "0276176b8ce61e0246569a94eabb85930cdf59a14b36c7b6e33f45164275150b",
+      "page": 22,
+      "excerpt": "so, permanencia y renovacion: \nEl acceso al cargo sera por concurso de titulos, antecedentes y con l"
+    },
+    {
+      "id": "664fd4eb2d4c97e6f199a490f4b8af16f75dd22858d4c0a2f2ac09666c82eee2",
+      "page": 22,
+      "excerpt": "6n Superior, que \nresolvera fundadamente sobre el orden de merito que corresponda a cada aspirante. "
+    },
+    {
+      "id": "644f4d4e5fcd23237f0a5f579d6b9cbccc3a5f94457942cc4aab8dc21ce27b9e",
+      "page": 22,
+      "excerpt": " docente ylo formaci6n tecnica de nivel \nsuperior (para el caso de carreras tecnicas) y al menos los"
+    },
+    {
+      "id": "4778753571ec62aeeba806ec4e3aa8dab8df04812147b52d0e335159e8b91435",
+      "page": 22,
+      "excerpt": "rrollo de la Coordinaci6n. \nf) En el caso que los aspirantes titulares o interinos del establecimien"
+    },
+    {
+      "id": "7ff16ba4cf4fc101ee77f6d27adbe161e87d9993e5d78a841e2f8788bb9d1c93",
+      "page": 22,
+      "excerpt": "go o \ntodos los aspiran s fuesen desestimados, el Rector, con anuencia del Consejo \n· rectivo conv a"
+    },
+    {
+      "id": "400e701c545a40b8586ca49f643079e6658d51ba8732b3ab326360ac6d04912d",
+      "page": 23,
+      "excerpt": "onsten los datos personales y, ademas, \ntitulos y antecedentes valorables. \nb) Constancias debidamen"
+    },
+    {
+      "id": "9b5d670b3b596fb3962371a49209b197b18e210b5541eec90d3559af54a0831f",
+      "page": 23,
+      "excerpt": "cione con el Proyecto Institucional. \nb. Que este concebido para satisfacer las necesidades y demand"
+    },
+    {
+      "id": "b6310cba65646213484ddf37e9682a724bcae60e9fd724891df4bf24c84e2bb3",
+      "page": 23,
+      "excerpt": "nsecutivos o no, presentando un nuevo proyecto de desarrollo, \nprevia evaluaci6n de su gesti6n, bajo"
+    },
+    {
+      "id": "0f33a6bc7e24a3bc1051f3be53c660b06b9ec3c07f9db2c2cb743905e3fea651",
+      "page": 24,
+      "excerpt": ":M.inisterio tfe 'EtfucaciOn \nPro·vtncia tie Corrientes \nIll \n-Hoja 24-\n(expediente N° 330-19-6-1864"
+    },
+    {
+      "id": "edfbaff2192037ae9e9dadff4199b56f409b7b35c028675eefecff8ac9d014a5",
+      "page": 24,
+      "excerpt": "en el Proyecto presentado por el Coordinador \nque solicit6 la licencia. \nSi la vacancia fuere mayor "
+    },
+    {
+      "id": "4604e0e108c04dffe2c3ae61278b0b7cbe1ba5a83af1784033be77a0be2df240",
+      "page": 24,
+      "excerpt": "o de un plazo no mayor a los 30 dias. \nSi ninglin docente titular o interino del establecimiento se "
+    },
+    {
+      "id": "19077ab716c60cee87565967e241306c44672e34b4669aeb83ab2f5bf4e512be",
+      "page": 24,
+      "excerpt": "ducaci6n Superior, la que resolvera al respecto. \nEl Rector, el Vicerrector, el Regente y Secretario"
+    },
+    {
+      "id": "509b59c890f52117c091fcb24fce1afd5674bd6180aff729a3fb36709b148f0f",
+      "page": 24,
+      "excerpt": "ente Continua, Investigacion, Practicas Docente, \nPracticas Profesionalizantes y de Politicas Estudi"
+    },
+    {
+      "id": "27c0a9ce476732f8caba2c540f384039f567b63bbb081b6bf0352affa22d0d0e",
+      "page": 25,
+      "excerpt": "s inasistencias y/o faltas de \npuntualidad en que eventualmente incurran aquellos. \ne. Registrar en "
+    },
+    {
+      "id": "239e57fcc9aa9df57323b5f8422089d2d0839de555598d7efdc7ae6f02a7f726",
+      "page": 25,
+      "excerpt": "areas con los otros Coordinadores de funciones de la \nInstituci6n, a los fines de la articulaci6n in"
+    },
+    {
+      "id": "4f00b62fa23be58aa36beff0a9dea2852550ce1d6f9b708971230c3bfbc23869",
+      "page": 25,
+      "excerpt": "anales. \nArticulo 45 \nLas Coordinaciones de Areas de Forrnaci6n Docente lnicial, Apoyo Pedag6gico a "
+    },
+    {
+      "id": "6dcbc5a99edb83c67158226e7a57b12bdb481f9eef77954d54caa66cee6faa24",
+      "page": 25,
+      "excerpt": "cas que se \nindican en los articulos siguientes. \nArticulo 46. Coordinacion de Formacion Docente Ini"
+    },
+    {
+      "id": "281011510181f156566fe4e6c60095024ed814500bd5792bc8e6ba92a6d9e1d6",
+      "page": 26,
+      "excerpt": "iento, evaluaci6n y seguimiento de la trayectoria formativa del \nestudiante. \nf. Articular con la Co"
+    },
+    {
+      "id": "5ada29fae2962507a30beed365a63051a2995b6845746a0da5eb5c3785bf72f8",
+      "page": 26,
+      "excerpt": " de generar e \nintercambiar informaci6n academica de los estudiantes, a traves de los \nCoordinadores"
+    },
+    {
+      "id": "add624a40cfaaf79ffec0c8e03783c8453c3b7854a7d2472315a0fa578b50927",
+      "page": 27,
+      "excerpt": " los docentes de las escuelas asociadas el acceso a recursos \nbibliograficos, informaticos y multime"
+    },
+    {
+      "id": "df0c73b41bb60a1c6d7db5d51d2eb55445eb4fffbd434d2acae72aec4189ae74",
+      "page": 28,
+      "excerpt": "ones no escolares \nPerfil requerido para el cargo de Coordinador de Formacion Docente Continua: \ndeb"
+    },
+    {
+      "id": "2182b7b53eb58a9100f93c183b914611584d91a0b430d83ac186df07305f9177",
+      "page": 28,
+      "excerpt": "nte continua. \nFunciones: ademas de las funciones enunciadas en el articulo 45, debeni cumplir las \n"
+    },
+    {
+      "id": "e401d85786c7da48e667f6248b0a58c41a925ace718caeb7441b740730170ab5",
+      "page": 29,
+      "excerpt": "de distintos dispositivos y formatos previstos en la normativa vigente, de \nacuerdo a los requerimie"
+    },
+    {
+      "id": "15b84d7118d829aaaebff60b7db56f20ae49845d9ef59edbbc1a6e87385ebf95",
+      "page": 29,
+      "excerpt": "nciones: ademas de las funciones enunciadas en el articulo 44°, debera cumplir las \nsiguientes \nfunc"
+    },
+    {
+      "id": "d38583ef0b971aec24398f097b3d680185bb188e706a49713e9d42accbee6427",
+      "page": 30,
+      "excerpt": "ES COPIA \n1455 \n~3 0 JUL 2014 \n:Ministerio ae 'Etfucacwn \nProvincia ae Conientes \n-Hoja 30-\n(expedie"
+    },
+    {
+      "id": "0cef770e47100f75824b2c1731497855acafb6a84cabdc4265840a47a065b4c2",
+      "page": 30,
+      "excerpt": "e apoyo pedag6gico a las \nescuelas asociadas. \nf) Diseiiar, implementar y evaluar estrategias supera"
+    },
+    {
+      "id": "85bafe8716668b62f0bbe8c887dfc1024cd47b96e3f27f8adc84fd36300a5ce8",
+      "page": 30,
+      "excerpt": "6n Inicial. \nLas Funciones, mecanismos de acceso, permanencia y renovaci6n, estan reguladas en \nel R"
+    },
+    {
+      "id": "2254d4b49c7b03a2e8752cea6fb9ad25495e5d06881a45a13bb5bc55bc6c5f46",
+      "page": 30,
+      "excerpt": "aci6n de acuerdos con supervisores, directores y \ndocentesde los niveles para los que forman, confor"
+    },
+    {
+      "id": "cd1e5e6a1d02e997a8bf41c406645ed23d89d16ee729a4192f55c518d36f0c1a",
+      "page": 31,
+      "excerpt": ", e informes mensuales \nde acciones. \nArticulo 51 Coordinacion de Practicas Profesionalizantes. \nDes"
+    },
+    {
+      "id": "ceed6b070fef871f41b061c95d214d14a8dbaec01a53e89dba1d56635ac06fdc",
+      "page": 31,
+      "excerpt": "an \nparte de la propuesta curricular, tienen como prop6sito que los estudiantes \nconsoliden, integre"
+    },
+    {
+      "id": "5f7ac18f97fde1f68c2498975085a4da7e6aef354f676032829b6e3b3b177783",
+      "page": 32,
+      "excerpt": "/ \n/ \n/ \n:M.inisterio ae 'Effucaci6n \nPro\"t.Jind4 tfe Corrientes \nES COPIA \n1455 \nIll \n'3 0 JUL 2014"
+    },
+    {
+      "id": "6fc1d466beb247651f48f6be2294e0a911a507b0d4881ab99fc3bede5c6a214a",
+      "page": 32,
+      "excerpt": "tes el Coordinador de \neste campo formative y los profesores de la Pnictica Profesional, deben \nprev"
+    },
+    {
+      "id": "2e8b53016c237c058ee42bec724171a9ef07e01695e7d8e62fbf3fb66e1b58c4",
+      "page": 32,
+      "excerpt": "e del profesor de Ia practica profesional en los \ndistintos entomos formativos y modalidades de Ia m"
+    },
+    {
+      "id": "70b2a169b65fd2a8846ff5ede1ea70ea9bdb6ab774c432f09fed0c771b96e028",
+      "page": 32,
+      "excerpt": "s condiciones para el desarrollo de las practicas en sus distintos formatos \ncomo proyectos producti"
+    },
+    {
+      "id": "6c5b288058482e255439d39edc2412e6c3259f064f6bf69f09c86d30826c6649",
+      "page": 32,
+      "excerpt": ". \nEs Ia unidad responsable de coordinar Ia labor academica de Ia carrera bajo su \n6rbita, acordando"
+    },
+    {
+      "id": "9218739ca67e53593c4ab6e2822e688a19a25015326950bb3c648b4b407fe0c9",
+      "page": 32,
+      "excerpt": "\nEl acceso al cargo sera por concurso de titulos, antecedentes y con la presentaci6n de \nun Proyecto"
+    },
+    {
+      "id": "15784a8ecbbb1316c76165e82e4f83b167a17e8c2fc6ed1df36cd4f68f6be283",
+      "page": 33,
+      "excerpt": ": \na) Una ficha de inscripci6n en la cual consten los datos personates y, ademas, titulos \ny anteced"
+    },
+    {
+      "id": "e0350ff53e67ba08d97ab15271ef23041f6353ca9064a75b7ab2b086dc9e5379",
+      "page": 33,
+      "excerpt": "ino en por lo menos una de las \nasignaturas de la carrera para la que se propone. \nPara la evaluacio"
+    },
+    {
+      "id": "0707d1d8a0ee89da294ee45618681567666417b81777024db2ed26721f92a842",
+      "page": 34,
+      "excerpt": "t \n:Ministerio tfe 'Etfucaci6n \n<Prcrvincia tfe Corrientes \nIll \n-Hoja 34-\n(expediente N° 330-19-6-1"
+    },
+    {
+      "id": "825f7167a4d6875a63ce1bfc502ebbd41bd58f215e237718af06a803f8d41e4f",
+      "page": 34,
+      "excerpt": ", bajo los mismos mecanismos \ny procedimientos de acceso al cargo, \ncitados en el articulo precedent"
+    },
+    {
+      "id": "d358527e68cc78b6ffcc80bcaa67e3cd5fe500078c9771178d24b1f7765d63b2",
+      "page": 34,
+      "excerpt": " \ncoordinador suplente continuar con las acciones previstas en el Proyecto presentado \npor el Coordi"
+    },
+    {
+      "id": "11dd771652727f81525cf580b3def6c0edec587c61a6faac11549803522acde4",
+      "page": 34,
+      "excerpt": "i una convocatoria intema a un nuevo concurso de \nantecedentes y proyectos, dentro de un plazo no ma"
+    },
+    {
+      "id": "f62ad1db834dc179d2cd012fcdf09f0f148dfeb5c71a3e2b8b6f232eced0cc72",
+      "page": 34,
+      "excerpt": " o por \nausencia de inscriptos, se podra requerir excepciones a la Direcci6n de Nivel \nSuperior, la "
+    },
+    {
+      "id": "859b179b1e01c74a8a9e7736dccd8e1aa228d0259b8d38d0576a7e3828387219",
+      "page": 35,
+      "excerpt": "e \n:M.inisterib tie 'Etfucacifm \nProvincia tie Corrientes \n-Hoja 35-\n(expediente N° 330-19-6-1864120"
+    },
+    {
+      "id": "169b7d502caaaa73817032e2cd1dd3f8f675758b07bbe1902866eb12e45c7acc",
+      "page": 35,
+      "excerpt": "udios, para evitar superposiciones de \ncatedras y de contenidos a fin de asegurar la articulaci6n de"
+    },
+    {
+      "id": "d7f64c0482c69ae509e9bb2b35ff6e64e98957a2380580a496a845936b7923a2",
+      "page": 35,
+      "excerpt": "i6n, seglin el Proyecto Educativo Institucional. \ne. Asesorar en asuntos academicos a los docentes y"
+    },
+    {
+      "id": "2464dcd04f4a1e1fc9446bc74f605fd19d9dcbfe4fa8dfa0ec5b5c8e11b80648",
+      "page": 35,
+      "excerpt": "ci6n. \ng. Analizar las planificaciones educativas presentadas por los docentes de la \ncoordinaci6n a"
+    },
+    {
+      "id": "a379bae51b1344b1876a99ff892140605f37b72e6ebafdb2cfc55ab1dedf0c8a",
+      "page": 35,
+      "excerpt": "to de las solicitudes de equivalencia de estudios referente \na la carrera bajo su coordinaci6n. \ni. "
+    },
+    {
+      "id": "93a6a9712b5ed2f8ea1221b3e6e7fe9f02c980a758baa038ef56d2e4e6bc513c",
+      "page": 35,
+      "excerpt": "al interior de la carrera, y \nen articulaci6n con otras coordinaciones existentes en la instituci6n,"
+    },
+    {
+      "id": "fe36e3dc2dd41c263e9bd8063292b5e6932122667c90de18e9aa789e1b4d4da5",
+      "page": 36,
+      "excerpt": "acion, correlatividades, inscripcion \npara cursar materias, regularizacion, examenes finales, y otro"
+    },
+    {
+      "id": "77703c86c72ac53c2064a446342b5111371317480c7f7ac5a2cf593818ef435f",
+      "page": 37,
+      "excerpt": "ulares y mesas de \nexamenes. \nf. Confeccionar las constancias requeridas por los estudiantes. \ng. Pr"
+    },
+    {
+      "id": "eab80b3c66ec81eab9484feef703287a9bf53863ce70cb95348b620f7a6c84e0",
+      "page": 37,
+      "excerpt": "istiendo a los alumnos y docentes, facilitandoles el \nacceso a diferentes fuentes de informacion por"
+    },
+    {
+      "id": "0f267cae5b49b7189c4bd3d29f26ec1d7014a20828897663ba79bf4ad869c001",
+      "page": 38,
+      "excerpt": "de la biblioteca. \nc. Articular con la Secretaria Academica y los Departamentos o \nCoordinaciones el"
+    },
+    {
+      "id": "ec887aecf39d880d6040ae57a07e92559225dbfe0b67ce45e1aeb8556193631a",
+      "page": 39,
+      "excerpt": "~inisterio ae 'EtfucaciOn \nPrm...a tfe Corrientes \nIll \n-Hoja 39-\n(expediente N° 330-19-6-186412014)"
+    },
+    {
+      "id": "d690e6cf16849d579ff37aa1d96305343b86a6c3db9d813c5e7b4f62eb9f083e",
+      "page": 39,
+      "excerpt": "zaci6n \nde los recursos tecnicos y los materiales didacticos necesarios para el 6ptimo \ndesarrollo d"
+    },
+    {
+      "id": "0d9db668dc8d5209369f739a737a4852d422fb1aa948acc687fa24afba7d4fbf",
+      "page": 43,
+      "excerpt": "i6n anual y los programas de la asignatura segU.n norrnas \ngenerales de la instituci6n, y presentarl"
+    },
+    {
+      "id": "8749ec660d31118a8f9220b70654c272e226c2fcce79896467e2e20c6c55c37c",
+      "page": 43,
+      "excerpt": "coordinaciones existentes en la instituci6n. \ndar opinion fundada en los tnimites de equivalencia o "
+    },
+    {
+      "id": "5752cafac73cdfba04789225b680d43f1eb6fdd19d6a1bca3d55c99e7b585fdf",
+      "page": 43,
+      "excerpt": "orfas u otros dispositivos pedag6gicos), o en los proyectos correspondientes a \nlas funciones asumid"
+    },
+    {
+      "id": "4e7270751584d536e1a223fc1f0fd9b62b3586885d4f028807ef6071d7d5b615",
+      "page": 55,
+      "excerpt": "uier unidad curricular, el estudiante debe \nestar notificado de Ia propuesta pedag6gica, caracterist"
+    },
+    {
+      "id": "f18f17b2311bc7d6cd02d911515122f25bcf03c4ad4497853695f36586ab9547",
+      "page": 55,
+      "excerpt": "nismo oficial, \npodra solicitar al Coordinador de Carrera, una nueva fecha que no podra extenderse \n"
+    },
+    {
+      "id": "d1908755c2d31c40593609449f181eabd4f1d9eacf291b55ed53c4b5bc7b6fa1",
+      "page": 58,
+      "excerpt": "na misma comisi6n evaluadora, esta sera presidida por el Docente \nmas antiguo de la especialidad den"
+    },
+    {
+      "id": "becc487c34b7a4191d1ef1de9f52ea32b4664431990f713aa1b5ae1ceeff6fc7",
+      "page": 59,
+      "excerpt": "dad, calificaci6n asignada a cada uno, \nexpresada en mimeros y letras, y la firma de los integrantes"
+    },
+    {
+      "id": "b5f4ea55829dce8b26bcff04e370f5710c916cb64cd67cbdc33a75258d04ce1c",
+      "page": 59,
+      "excerpt": "sera efectuada con \nintervenci6n del Vicerrector, dejando clara constancia del motive. El Libro de A"
+    },
+    {
+      "id": "4bd7e39a863ca0b4e2c05ca6414b2912c890022efff914344d350abfb414d83e",
+      "page": 61,
+      "excerpt": "chazo de la solicitud. \n• Si la acreditaci6n es parcial, consignar los contenidos necesarios que \npe"
+    },
+    {
+      "id": "a1bc11d403f5b125a048207342fd42b1bc16ff6024262d82f3a4794ba4440a22",
+      "page": 62,
+      "excerpt": "edra, cualquiera \nsea su formate. \nb) El profesor de la catedra debeni presentar a la Coordinaci6n d"
+    },
+    {
+      "id": "8aa61fd91f7ec31a60c90d7e5c33024ff383df91934488631acf334303a5c09a",
+      "page": 63,
+      "excerpt": "ES CO PIA \n1455 \n:M.inisterio tfe tEtfucacron \na'rauinci.a ae Corrientes \n3 0 JUL 2014 \n-Hoja 63-\n(e"
+    },
+    {
+      "id": "8b7f725028b02783c6e141b96e76f7563df6770f7d4e316f90bc4771efd97ba2",
+      "page": 63,
+      "excerpt": " DE LOS ESTUDIANTES \nArticulo 42. Los estudiantes tendran derecho a: \na) El estudiante que por razon"
+    },
+    {
+      "id": "58292005c0c45e681540a7c5cbe812d024b29df6b6cb50d383e95f595f892998",
+      "page": 65,
+      "excerpt": " si la carrera fuese tecnico-profesional, o con· orientaci6n \nhumanfstica o social (Res. CFE \n59/08)"
+    },
+    {
+      "id": "b0cd492af9204b90492cdcbf1906c2d49a901a7913184f96a99c0cccf96e196c",
+      "page": 70,
+      "excerpt": " trabajos o pruebas de evaluaci6n, calificaciones \nparciales y/o definitivas. El profesor responsabl"
+    },
+    {
+      "id": "1348485e386b7308cb0d645657b59ce7e7721ad2b46d2673644bb46ab3f6c6e2",
+      "page": 71,
+      "excerpt": "a instituci6n, frente al resto de \nla comunidad y como estimulo. \nArticulo 6°. Las Sanciones senin a"
+    }
+  ]
+}

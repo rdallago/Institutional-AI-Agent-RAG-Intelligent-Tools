@@ -1,0 +1,12 @@
+# Override predeterminado de desarrollo; no incluye Compose de pruebas explicito.
+services:
+  postgres:
+    image: api-usuarios-clean/pgvector@sha256:a1336b54a1b49085474132cceb0636b314707b011fdb242afa694ae08ffcc3e6
+    pull_policy: never
+    volumes:
+      - rag_pgvector_data:/var/lib/postgresql
+
+volumes:
+  rag_pgvector_data:
+    external: true
+    name: api-usuarios-clean-pgvector-93e-data

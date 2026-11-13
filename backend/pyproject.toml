@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "api-usuarios-clean"
+version = "0.1.0"
+description = "Proyecto educativo de FastAPI con Clean Architecture"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "fastapi==0.162.0",
+    "uvicorn==0.54.0",
+    "SQLAlchemy==2.0.55",
+    "psycopg[binary]==3.3.6",
+    "alembic==1.20.1",
+    "python-dotenv==1.2.4",
+    "argon2-cffi==25.1.0",
+    "PyJWT==2.15.1",
+    "httpx==0.28.1",
+    "pypdf==6.21.4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers"
+markers = ["postgres: requiere PostgreSQL aislado usuarios_test en el puerto 5435"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"app.application.agent.skills" = ["academic-rag/SKILL.md", "weather/SKILL.md"]

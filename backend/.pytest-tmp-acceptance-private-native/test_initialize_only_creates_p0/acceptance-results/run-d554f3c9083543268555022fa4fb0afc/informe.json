@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "run_id": "d306152c-e700-4de3-8a5c-baeadad45b96",
+  "created": "2026-11-07T17:44:29.418240+00:00",
+  "identities": {},
+  "conversations": {},
+  "results": {
+    "A1": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Cuáles son las funciones del Rectorado según el Reglamento Orgánico Marco?",
+      "expected": "RAG"
+    },
+    "A2": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Y cuáles son los requisitos para concursar las coordinaciones de carrera?",
+      "expected": "RAG"
+    },
+    "B1": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Cuáles son las funciones del Rectorado según el Reglamento Orgánico Marco?",
+      "expected": "RAG"
+    },
+    "B2": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Sobre qué órgano del Reglamento Orgánico Marco te pregunté anteriormente?",
+      "expected": "MEMORIA"
+    },
+    "C1": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Cómo está el clima en Esquina, Corrientes, Argentina?",
+      "expected": "CLIMA"
+    },
+    "C2": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Y cómo estará mañana?",
+      "expected": "CLIMA"
+    },
+    "D1": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Qué es una API REST y para qué sirve?",
+      "expected": "GENERAL"
+    },
+    "D2": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Podés darme un ejemplo de una API REST con Python y FastAPI?",
+      "expected": "GENERAL"
+    },
+    "E1": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Cuáles son las funciones del Rectorado según el Reglamento Orgánico Marco?",
+      "expected": "RAG"
+    },
+    "E2": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Cómo está el clima en Esquina, Corrientes, Argentina?",
+      "expected": "CLIMA"
+    },
+    "E3": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Qué es una API REST?",
+      "expected": "GENERAL"
+    },
+    "E4": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "Volviendo al reglamento, ¿qué establece el artículo 24 sobre el Rectorado?",
+      "expected": "RAG"
+    },
+    "U1": {
+      "status": "NO EVALUADO",
+      "user": "COMUN",
+      "question": "¿Cuáles son las funciones del Rectorado según el Reglamento Orgánico Marco?",
+      "expected": "RAG"
+    },
+    "U2": {
+      "status": "NO EVALUADO",
+      "user": "COMUN",
+      "question": "¿Qué es una API REST?",
+      "expected": "GENERAL"
+    },
+    "U3": {
+      "status": "NO EVALUADO",
+      "user": "COMUN",
+      "question": "¿Sobre qué órgano del Reglamento Orgánico Marco te pregunté anteriormente?",
+      "expected": "MEMORIA"
+    }
+  },
+  "phase": "turns",
+  "summary": {
+    "counts": {
+      "NO EVALUADO": 15
+    },
+    "acceptance": "REVISIÓN HUMANA PENDIENTE: los aprobados automáticos son técnicos",
+    "real_qwen_calls": "No observable mediante el contrato HTTP; no estimar como conteo real"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "run_id": "ab0b6e6a-dbe5-4425-a4d3-4004c933667e",
+  "identities": {},
+  "conversations": {
+    "ADMIN:academica": {
+      "id": "c6a115b8-82fa-4264-904a-22f35a5d5dc5",
+      "owner": "1ddedd12-ad5f-4876-bd0f-b3c4ea169ade",
+      "label": "ACEPTACION ab0b6e6a ADMIN:academica",
+      "created": true
+    }
+  },
+  "results": {
+    "A1": {
+      "user": "ADMIN",
+      "role": "ADMIN",
+      "conversation": "c6a115b8-82fa-4264-904a-22f35a5d5dc5",
+      "question": "¿Cuáles son las funciones del Rectorado según el Reglamento Orgánico Marco?",
+      "expected": "RAG",
+      "request_id": "e5280af6-08d3-448e-a3e9-2a9df563cdfa",
+      "ram_before_gib": 2.0,
+      "status": "BLOQUEADO",
+      "uncertain": true,
+      "reason": "Transporte interrumpido; resultado incierto. No reenviar."
+    }
+  },
+  "phase": "turns",
+  "summary": {
+    "counts": {
+      "BLOQUEADO": 1
+    },
+    "acceptance": "REVISIÓN HUMANA PENDIENTE: los aprobados automáticos son técnicos",
+    "real_qwen_calls": "No observable mediante el contrato HTTP; no estimar como conteo real"
+  },
+  "last_post_at": 1794073458.946258
+}

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "run_id": "350eb543-e6ee-4865-a953-04ab2d0ce357",
+  "identities": {},
+  "conversations": {},
+  "results": {
+    "x": {
+      "response": "[SECRETO OMITIDO] [SECRETO OMITIDO] [SECRETO OMITIDO]"
+    }
+  },
+  "phase": "turns",
+  "summary": {
+    "counts": {
+      "NO EVALUADO": 1
+    },
+    "acceptance": "REVISIÓN HUMANA PENDIENTE: los aprobados automáticos son técnicos",
+    "real_qwen_calls": "No observable mediante el contrato HTTP; no estimar como conteo real"
+  }
+}

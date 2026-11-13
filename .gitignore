@@ -1,0 +1,19 @@
+# Entornos y archivos locales
+.venv/
+.env
+.env.*
+!.env.example
+
+# Artefactos de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+prompts.txt
+.model-work.lock
+backend/.model-work.lock

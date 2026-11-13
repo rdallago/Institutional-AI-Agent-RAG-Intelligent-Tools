@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "run_id": "3ced361b-ef54-4a56-ac5d-fffe29efa3c6",
+  "identities": {},
+  "conversations": {},
+  "results": {
+    "A1": {
+      "status": "BLOQUEADO",
+      "reason": "RAM cayó a 1.400 GiB antes del envío.",
+      "user": "ADMIN",
+      "question": "¿Cuáles son las funciones del Rectorado según el Reglamento Orgánico Marco?",
+      "expected": "RAG"
+    }
+  },
+  "phase": "turns",
+  "summary": {
+    "counts": {
+      "BLOQUEADO": 1
+    },
+    "acceptance": "REVISIÓN HUMANA PENDIENTE: los aprobados automáticos son técnicos",
+    "real_qwen_calls": "No observable mediante el contrato HTTP; no estimar como conteo real"
+  },
+  "resources_blocked": true
+}

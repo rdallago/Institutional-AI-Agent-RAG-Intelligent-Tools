@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "run_id": "37715bd1-0975-43ea-9859-a728127472ff",
+  "identities": {},
+  "conversations": {
+    "ADMIN:academica": {
+      "id": "76963146-571b-4fcc-850d-ce081bc13362",
+      "owner": "4f8ecb52-1479-48cf-b59c-a3b78c00376e",
+      "label": "ACEPTACION 37715bd1 ADMIN:academica",
+      "created": true
+    },
+    "ADMIN:memoria": {
+      "id": "7681b89e-499a-4fbf-8b18-26dacc6233b4",
+      "owner": "4f8ecb52-1479-48cf-b59c-a3b78c00376e",
+      "label": "ACEPTACION 37715bd1 ADMIN:memoria",
+      "created": true
+    },
+    "COMUN:propia": {
+      "id": "84023566-ab41-4fe4-99fc-5574e7411a3c",
+      "owner": "9698096f-9a82-4286-9782-bc1dced1f96d",
+      "label": "ACEPTACION 37715bd1 COMUN:propia",
+      "created": true
+    }
+  },
+  "results": {},
+  "phase": "turns",
+  "summary": {
+    "counts": {},
+    "acceptance": "REVISIÓN HUMANA PENDIENTE: los aprobados automáticos son técnicos",
+    "real_qwen_calls": "No observable mediante el contrato HTTP; no estimar como conteo real"
+  }
+}

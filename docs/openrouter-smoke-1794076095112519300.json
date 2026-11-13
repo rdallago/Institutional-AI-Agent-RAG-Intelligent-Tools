@@ -1,0 +1,12 @@
+{
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "started": "2026-11-07T18:28:14.439431+00:00",
+  "ram_before_gib": 1.274,
+  "private_data_sent": false,
+  "status": "BLOCKED_OR_FAILED",
+  "error_type": "PlanificadorNoDisponible",
+  "seconds": 0.673,
+  "generation_requests": 1,
+  "catalog_requests": 1,
+  "ram_after_gib": 1.271
+}

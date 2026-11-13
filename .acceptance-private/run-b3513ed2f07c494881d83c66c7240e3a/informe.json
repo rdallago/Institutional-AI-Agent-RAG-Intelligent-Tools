@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "run_id": "baa4a583-80e3-4dd0-9b27-596cc3eee532",
+  "created": "2026-11-07T17:44:44.056053+00:00",
+  "identities": {
+    "ADMIN": {
+      "id": "32eabde4-7d17-4029-a47a-60e2e38faf05",
+      "role": "ADMIN"
+    },
+    "COMUN": {
+      "id": "c7b0b08b-bd4e-45c3-be68-d48213d4b8a7",
+      "role": "USUARIO"
+    }
+  },
+  "conversations": {},
+  "results": {
+    "A1": {
+      "status": "BLOQUEADO",
+      "reason": "RAM insuficiente: 1.332 GiB; mínimo 1.5 GiB.",
+      "user": "ADMIN",
+      "question": "¿Cuáles son las funciones del Rectorado según el Reglamento Orgánico Marco?",
+      "expected": "RAG"
+    },
+    "A2": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Y cuáles son los requisitos para concursar las coordinaciones de carrera?",
+      "expected": "RAG"
+    },
+    "B1": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Cuáles son las funciones del Rectorado según el Reglamento Orgánico Marco?",
+      "expected": "RAG"
+    },
+    "B2": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Sobre qué órgano del Reglamento Orgánico Marco te pregunté anteriormente?",
+      "expected": "MEMORIA"
+    },
+    "C1": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Cómo está el clima en Esquina, Corrientes, Argentina?",
+      "expected": "CLIMA"
+    },
+    "C2": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Y cómo estará mañana?",
+      "expected": "CLIMA"
+    },
+    "D1": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Qué es una API REST y para qué sirve?",
+      "expected": "GENERAL"
+    },
+    "D2": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Podés darme un ejemplo de una API REST con Python y FastAPI?",
+      "expected": "GENERAL"
+    },
+    "E1": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Cuáles son las funciones del Rectorado según el Reglamento Orgánico Marco?",
+      "expected": "RAG"
+    },
+    "E2": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Cómo está el clima en Esquina, Corrientes, Argentina?",
+      "expected": "CLIMA"
+    },
+    "E3": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "¿Qué es una API REST?",
+      "expected": "GENERAL"
+    },
+    "E4": {
+      "status": "NO EVALUADO",
+      "user": "ADMIN",
+      "question": "Volviendo al reglamento, ¿qué establece el artículo 24 sobre el Rectorado?",
+      "expected": "RAG"
+    },
+    "U1": {
+      "status": "NO EVALUADO",
+      "user": "COMUN",
+      "question": "¿Cuáles son las funciones del Rectorado según el Reglamento Orgánico Marco?",
+      "expected": "RAG"
+    },
+    "U2": {
+      "status": "NO EVALUADO",
+      "user": "COMUN",
+      "question": "¿Qué es una API REST?",
+      "expected": "GENERAL"
+    },
+    "U3": {
+      "status": "NO EVALUADO",
+      "user": "COMUN",
+      "question": "¿Sobre qué órgano del Reglamento Orgánico Marco te pregunté anteriormente?",
+      "expected": "MEMORIA"
+    }
+  },
+  "phase": "turns",
+  "summary": {
+    "counts": {
+      "BLOQUEADO": 1,
+      "NO EVALUADO": 14
+    },
+    "acceptance": "REVISIÓN HUMANA PENDIENTE: los aprobados automáticos son técnicos",
+    "real_qwen_calls": "No observable mediante el contrato HTTP; no estimar como conteo real"
+  },
+  "preflight": {
+    "database": "usuarios_dev",
+    "version": "7cb4e79c-747d-574a-8abb-0ebcb2e07636",
+    "estado": "LISTA",
+    "fragments": 432,
+    "embeddings": 432,
+    "conversations": []
+  },
+  "preflight_ram_gib": 1.2633018493652344,
+  "configured_model": "qwen2.5:1.5b",
+  "runtime_model_evidence": "No expuesto por HTTP; confirmar arranque local antes de iniciar.",
+  "backend_initial": {
+    "pid": 19020,
+    "project": true,
+    "local_launcher": true,
+    "started": "2026-11-07T15:41:01.4696847Z"
+  },
+  "last_stop": "Recursos insuficientes. Se conserva el progreso; no se reintenta ninguna inferencia.",
+  "document_access": {
+    "ADMIN": true,
+    "COMUN": false
+  },
+  "resources_blocked": true
+}

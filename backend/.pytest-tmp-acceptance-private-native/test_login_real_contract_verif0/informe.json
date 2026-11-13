@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "run_id": "cbb94881-4caf-4875-92d6-431a49b92dbd",
+  "identities": {},
+  "conversations": {},
+  "results": {},
+  "phase": "turns",
+  "summary": {
+    "counts": {},
+    "acceptance": "REVISIÓN HUMANA PENDIENTE: los aprobados automáticos son técnicos",
+    "real_qwen_calls": "No observable mediante el contrato HTTP; no estimar como conteo real"
+  }
+}

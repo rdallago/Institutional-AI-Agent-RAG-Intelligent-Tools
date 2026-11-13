@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "run_id": "e117165a-8e10-4955-8e53-b79b5a32fa72",
+  "identities": {},
+  "conversations": {
+    "ADMIN:academica": {
+      "id": "a2ba6754-5cd5-4e33-8dbb-d05fbd03d160",
+      "owner": "91c05f34-3c6d-48a6-aa6a-960e7e5d3ac7",
+      "label": "ACEPTACION e117165a ADMIN:academica",
+      "created": true
+    }
+  },
+  "results": {
+    "A1": {
+      "user": "ADMIN",
+      "role": "ADMIN",
+      "conversation": "a2ba6754-5cd5-4e33-8dbb-d05fbd03d160",
+      "question": "¿Cuáles son las funciones del Rectorado según el Reglamento Orgánico Marco?",
+      "expected": "RAG",
+      "request_id": "9df326c1-874a-4b37-a583-b96a2906128f",
+      "ram_before_gib": 2.0,
+      "status": "APROBADO",
+      "reason": "Contrato, canal y criterio automático satisfechos; revisar calidad/cobertura del texto.",
+      "http": 200,
+      "seconds": 0.25,
+      "ram_after_gib": 2.0,
+      "actual": "RAG",
+      "tool": null,
+      "response": "Texto [F1].",
+      "state": "FUNDAMENTADA",
+      "sources": [
+        {
+          "id": "F1",
+          "pagina": 11
+        }
+      ],
+      "diagnostics": [],
+      "selection_source": "NO EVALUADO: no expuesto por HTTP",
+      "semantic_review": "PENDIENTE: revisar texto, cobertura y atribución",
+      "qwen_calls": "NO DETERMINABLE solo mediante el contrato HTTP"
+    }
+  },
+  "phase": "turns",
+  "summary": {
+    "counts": {
+      "APROBADO": 1
+    },
+    "acceptance": "REVISIÓN HUMANA PENDIENTE: los aprobados automáticos son técnicos",
+    "real_qwen_calls": "No observable mediante el contrato HTTP; no estimar como conteo real"
+  },
+  "last_post_at": 1794073458.7863567
+}
