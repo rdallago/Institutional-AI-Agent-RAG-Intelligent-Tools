@@ -16,6 +16,7 @@ funcional. No se declara una suite global sin fallos ni un despliegue público c
 
 ## 1. Conceptos para empezar
 
+
 | Concepto | Qué significa aquí |
 |---|---|
 | Frontend | React muestra pantallas y envía solicitudes HTTP; no accede a PostgreSQL. |
